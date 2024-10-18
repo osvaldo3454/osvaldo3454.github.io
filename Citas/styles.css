@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Strike&display=swap');
+
+ *{
+
+ }
+
+ body {
+font-family: family=Oswald, sans-serif;
+margin: 0;
+padding: 0;
+background-image: url(5.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;   
+background-attachment: fixed;      
+}
+
+header {
+    
+    background-color: brown;
+background-size: cover;
+background-position: 25, 0;
+background-repeat: no-repeat;
+color:white;
+padding: 70px;
+text-align: center;
+}
+
+.post {
+background: none;
+text-align: center;
+margin: 20px;
+padding: 15px;
+border-radius: 5px;
+color: white;
+box-shadow: white;
+}
+
+ footer {
+text-align: center;
+padding: 20px;
+background-color: brown;
+color: white;
+background-size: 100%;
+bottom: 0;
+background-repeat: no-repeat;
+width: 100%;
+ }
+ .container{
+    border :solid 1px ;
+ }    
+ table{
+    color: #FFF;
+ }   
+ th{
+    background-color: brown;
+    padding: 10px, 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+ }
+ td{
+    padding: 15px;
+    border-bottom: solid 1px;
+ }
+ tbody tr:hover{
+    background-color: brown;
+ }
